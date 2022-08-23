@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+
+    <script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link').click(function() { $.scrollTo($('#about'), 500); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+
+	</script>
+
+    <title>Aleksandra Skrzypczyńska</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+	
+</head>
+
+<body>
+
+	<header>
+		<div class="logo">
+			<img src="images/logo.png" style="float: left;" />
+			<h1>Skrzypczyńska</h1>
+			<h2>Aleksandra</h2>
+			<div style="clear:both"></div>
+		</div>
+	</header>	
+
+	<main>
+		<div class="slide">
+			<h3>Hej, mam na imię Ola</h3>
+			<p class="text1">ukończyłam studia na kierunku Architektura Wnętrz, jednak moją pasją jest grafika komputerowa, którą od dawna zajmuję się hobbystycznie, a od ponad roku – również komercyjnie.</p>
+			<a class="hiperlink" id="link" href="#">Przewiń na dół, by zobaczyć więcej</a>
+		</div>
+		<div class="illustration">
+			<div class="object"></div>
+		</div>
+	</main>
+
+	<div class="works">
+
+		<div class="works-img">
+			<a href="images/1.png" data-lightbox="mygallery" data-title="Projekt KV dla firmy farmaceutycznej">
+				<img src="images/1.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/22.png" data-lightbox="mygallery" data-title="Reklama MMS dla lekarzy i farmaceutów">
+				<img src="images/2.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/3.png" data-lightbox="mygallery" data-title="Wizualizacja dla firmy projektującej domki sezonowe">
+				<img src="images/3.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/44.png" data-lightbox="mygallery" data-title="Wizualizacja i projekt wnętrza domku jednorodzinnego">
+				<img src="images/4.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/66.jpg" data-lightbox="mygallery" data-title="Projekt torby reklamowej">
+				<img src="images/6.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/88.png" data-lightbox="mygallery" data-title="Kartka z podziękowaniem">
+				<img src="images/8.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/99.png" data-lightbox="mygallery" data-title="Projekt i skład kalendarza książkowego">
+				<img src="images/9.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/77.png" data-lightbox="mygallery" data-title="Naklejka dla lekarzy i farmaceutów">
+				<img src="images/7.png">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/12.png" data-lightbox="mygallery" data-title="Projekt KV dla firmy farmaceutycznej">
+				<img src="images/12.png" alt="Lorem">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/13.png" data-lightbox="mygallery" data-title="Projekt ulotki firmy IT">
+				<img src="images/133.png" alt="Lorem">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="images/55.png" data-lightbox="mygallery" data-title="Roczna współpraca z firmą Riot, przy tworzeniu reklam wydarzeń dla społeczeństwa gry League of Legends">
+				<img src="images/5.png" alt="Lorem">
+			</a>
+		</div>
+
+		<div class="works-img">
+			<a href="https://www.youtube.com/watch?v=vGZ1oA1jKdQ" target="_blank">
+				<img src="images/10.png" alt="Lorem">
+			</a>
+		</div>
+
+	</div>
+	<div style="clear:both"></div>
+
+	<div class="slide2">
+		<div class="image"><img src="images/grafika4-01.png"></div>
+		<div class="text2" id="about">
+			<h4>Dotychczas zajmowałam się:</h4>
+			<li>projektowaniem materiałów do druku i Internetu (m. in. banerów reklamowych, newsletterów, mailingów, grafik do social media)</li>
+			<li>projektowaniem materiałów reklamowych z naciskiem na identyfikację wizualną marki (w tym Key visuali)</li>
+			<li>projektowaniem i przygotowaniem do druku (DTP) ulotek, naklejek, plakatów, opakowań produktowych, kalendarzy ściennych i książkowych itp.</li>
+			<li>projektowaniem elewacji budynków oraz wystroju wnętrz</li>
+		</div>
+		<div class="text3" id="about" >
+			<h4>Umiejętności:</h4>
+			<li>bardzo dobra znajomość pakietu Adobe: Photoshop, InDesign, Ilustrator, Adobe XD, Acrobat</li>
+			<li>bardzo dobra znajomość Coral Draw</li>
+			<li>bardzo dobra znajomość programów projektowych/3D: AutoCAD, SketchUp</li>
+			<li>szeroka wiedza z zakresu DTP</li>
+			<li>podstawowa znajomość HTML, CSS (dzięki którym sama stworzyłam tę stronę)</li>
+			</br>
+			<li>wyczucie estetyki i dbałość o szczegóły</li>
+			<li>kreatywność, energia i dynamika w pracy</li>
+			<li>komunikatywność oraz umiejętność współpracy w zespole</li>
+			<li>znajomość języka angielskiego na poziomie B2</li>
+		</div>
+		<div style="clear:both"></div>
+		<div class="text4">
+			<h4>Zainteresowania:</h4>
+			Wszystko, dzięki czemu mogę spełnić się artystycznie, od rysowania i Digital Painting, po <a href="https://www.instagram.com/niezgoda_rapsoda/" target="_blank">origami</a> czy pracę w glinie, a kiedy zostanę milionerką, kupię własny zakład stolarski albo hutę szkła. Albo jedno i drugie :] 
+		</div>
+	</div>
+
+	<footer>
+					
+			<header>
+
+				<div class="contact">
+					<h1 id="h1-contact">Zapraszam do kontaktu</h1>
+
+					<div class="mail">
+						E-MAIL:</br>
+						<h6>aleksandra.skrzypczynska@gmail.com</h6>
+					</div>
+
+					<div class="phone">
+						NUMER TELEFONU:</br>
+						782 382 251
+					</div>
+
+					<div class="insta">
+						INSTAGRAM:</br>
+						<a href="https://www.instagram.com/niezgoda_rapsoda/" target="_blank">@niezgoda_rapsoda</a>
+					</div>
+
+					<div class="cv">
+						<a href="images/cv.pdf" target="_blank">Curriculum</br> vitae</a>
+					</div>
+
+					<div style="clear:both"></div>
+
+				</div>
+
+
+
+
+
+			</header>
+	
+
+	</footer>
+
+
+
+</body>
+</html>

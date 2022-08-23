@@ -1,4 +1,4 @@
-# Interactive-Desk
+# Graphic_Portfolio_PL
 
-Strona z interaktywnym biurkiem na którym znajdziemy kalkulator, ToDoList, prostą grę, aplikacje pogodową i pomniejsze aplikacje. Wszystko stworzone od podstaw przy pomocy Httml, Css i JavaScipt.
+Moja pierwsza strona zawierająca portfolio graficzne. 
 
